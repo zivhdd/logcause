@@ -1,0 +1,31 @@
+{"time": 0.9584497213363647, "logid": 0, "params": [0], "text": "USER: Starting nodes"}
+{"time": 0.9584497213363647, "logid": 1, "params": [0], "text": "Node started"}
+{"time": 40.93979203701019, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 259.91963505744934, "logid": 8, "params": [0], "text": "Special Market Conditions B"}
+{"time": 475.4353641271591, "logid": 6, "params": [0], "text": "Order rejected"}
+{"time": 756.101327419281, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 860.5392103791237, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 928.0868891477585, "logid": 8, "params": [0], "text": "Special Market Conditions B"}
+{"time": 1284.7370351552963, "logid": 6, "params": [0], "text": "Order rejected"}
+{"time": 1514.0727052688599, "logid": 8, "params": [0], "text": "Special Market Conditions B"}
+{"time": 1560.0572049617767, "logid": 10, "params": [0], "text": "Stale Feed"}
+{"time": 1694.7096294760704, "logid": 10, "params": [0], "text": "Stale Feed"}
+{"time": 1704.5306614041328, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 1722.6610044240952, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 1800.1954371929169, "logid": 7, "params": [0], "text": "Special Market Conditions A"}
+{"time": 1826.1918974518776, "logid": 7, "params": [0], "text": "Special Market Conditions A"}
+{"time": 1834.184956073761, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 1849.216826558113, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 1897.87066167593, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 2036.030619442463, "logid": 7, "params": [0], "text": "Special Market Conditions A"}
+{"time": 2108.05034583807, "logid": 6, "params": [0], "text": "Order rejected"}
+{"time": 2108.05034583807, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 2430.358722090721, "logid": 8, "params": [0], "text": "Special Market Conditions B"}
+{"time": 2457.4523229002953, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 2587.7755907177925, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 2672.642197430134, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 2950.7151157855988, "logid": 6, "params": [0], "text": "Order rejected"}
+{"time": 2950.7151157855988, "logid": 3, "params": [0], "text": "TickerAssert"}
+{"time": 3068.897237300873, "logid": 9, "params": [0], "text": "Unexpected Message"}
+{"time": 3209.369017124176, "logid": 8, "params": [0], "text": "Special Market Conditions B"}
+{"time": 3574.5976308584213, "logid": 9, "params": [0], "text": "Unexpected Message"}

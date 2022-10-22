@@ -35,6 +35,7 @@ class Residual(nn.Module):
     def __init__(self, dim):
         super().__init__()
         self.ff = nn.Sequential(*[nn.Linear(dim, dim), nn.ReLU(), nn.BatchNorm1d(dim)])
+        #self.ff = nn.Sequential(*[nn.Linear(dim, dim), nn.ReLU()])##, nn.BatchNorm1d(dim)])
 
     def forward(self, input):
         return self.ff(input) + input
@@ -60,6 +61,8 @@ class SimplePred(nn.Module):
 
     def forward(self, input):
         cond_emb = self.cond_embedding(input[:,1:].int())
+        #if self.training:
+        #    cond_emb += (torch.rand(cond_emb.shape, device=input.device) - 0.5) / 1000
         bag = cond_emb.sum(dim=1)
         event_emb = self.event_embedding(input[:, 0].int())
         base = torch.concat((event_emb, bag), dim=1)
